@@ -8,3 +8,6 @@
 
 ## @rollup/plugin-json
 **它允许 Rollup 从 JSON 文件中导入数据**
+
+## @rollup/plugin-terser
+**用于生成简洁的压缩包**
