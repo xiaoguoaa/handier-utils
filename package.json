@@ -1,15 +1,22 @@
 {
   "name": "gwh-utils",
-  "version": "1.0.2",
+  "version": "1.0.9",
   "type": "module",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "function utils",
+  "keywords": [
+    "utils"
+  ],
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist && rollup -c rollup.config.js"
+    "build": "rimraf lib && rollup -c rollup.config.js"
   },
   "author": "guowh",
   "license": "ISC",
+  "files": [
+    "lib",
+    "REDEME.md"
+  ],
   "devDependencies": {
     "@babel/core": "^7.23.5",
     "@babel/preset-env": "^7.23.5",

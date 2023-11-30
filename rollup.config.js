@@ -8,7 +8,7 @@ const config = [
   {
     input: "src/index.ts",
     output: {
-      dir: "dist",
+      dir: "lib",
       format: "cjs",
     },
     plugins: [
@@ -25,8 +25,7 @@ const config = [
   {
     input: "src/index.ts",
     output: {
-      dir: "dist",
-      format: "cjs",
+      dir: "lib",
     },
     plugins: [dts()],
   },
