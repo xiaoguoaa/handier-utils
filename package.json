@@ -1,23 +1,27 @@
 {
-  "name": "rollup",
-  "version": "1.0.0",
+  "name": "gwh-utils",
+  "version": "1.0.2",
   "type": "module",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rimraf dist && rollup -c rollup.config.js"
   },
-  "author": "",
+  "author": "guowh",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
     "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-json": "^6.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4"
+    "@rollup/plugin-terser": "^0.4.4",
+    "rimraf": "^5.0.5",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.3.2"
   },
-  "dependencies": {
-    "@babel/core": "^7.23.5",
-    "@babel/preset-env": "^7.23.5"
-  }
+  "dependencies": {}
 }

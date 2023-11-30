@@ -17,3 +17,12 @@
 
 ## @rollup/plugin-babel
 **用于 Rollup 和 Babel 之间的无缝集成。**
+
+## typescript 相关
++ typescript
++ rollup-plugin-typescript2     编译typescript
++ rollup-plugin-dts             方便生成ts 声明文件
++ @rollup/plugin-typescript     用于 Rollup 和 Typescript 之间的无缝集成
+
+## rimraf
+**清理目录**
