@@ -6,6 +6,7 @@ import cloneDeep from "./utils/cloneDeep";
 import getRandomNumber from "./utils/getRandomNumber";
 import getRandomHexColor from "./utils/getRandomHexColor";
 import getRandomRgbColor from "./utils/getRandomRgbColor";
+import getRandomString from "./utils/getRandomString";
 
 export {
   chunk,
@@ -16,4 +17,5 @@ export {
   getRandomNumber,
   getRandomHexColor,
   getRandomRgbColor,
+  getRandomString,
 };
