@@ -1,7 +1,7 @@
 /**
  * 生成范围内[min, max]随机数
- * @param min 随机数范围最小值
- * @param max 随机数范围最大值
+ * @param min 随机数范围最小值  -- default=0
+ * @param max 随机数范围最大值  -- default=100
  * @returns 范围内[min, max]随机数
  */
 function getRandomNumber(min = 0, max = 100) {
