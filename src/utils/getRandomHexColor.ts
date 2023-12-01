@@ -1,7 +1,6 @@
 /**
- * 生成随机十六进制颜色码
- * 例：#8D73D1
- * @returns 返回生成的随机十六进制颜色码
+ * ### 生成随机十六进制颜色码
+ * @returns 返回生成的随机十六进制颜色码 `example: #8D73D1`
  */
 function getRandomHexColor() {
   const letters = "0123456789ABCDEF";

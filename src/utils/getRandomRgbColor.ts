@@ -1,9 +1,9 @@
 import getRandomNumber from "./getRandomNumber";
 
 /**
- * 生成 rgb|rgba 随机颜色
- * @param type 类型["rgb" | "rgba"] -- default='rgb'
- * @returns 返回生成 rgb|rgba 随机颜色
+ * ### 生成 `rgb|rgba` 类型随机颜色
+ * @param type 类型 `rgb|rgba` `default='rgb'`
+ * @returns 返回生成 `rgb|rgba` 随机颜色
  */
 function getRandomRgbColor(type: "rgb" | "rgba" = "rgb"): string {
   let color = "";

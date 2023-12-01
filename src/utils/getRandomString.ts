@@ -1,6 +1,6 @@
 /**
- * 生成随机字符串
- * @param len 自定字符串长度 --default=24
+ * ### 生成随机字符串
+ * @param len 指定字符串长度 `default=24`
  * @returns 返回生成的随机字符串
  */
 function getRandomString(len = 24) {

@@ -1,9 +1,9 @@
 import type { FunctionVoidWithThis, FunctionVoid } from "../types";
 
 /**
- * 节流函数
+ * ### 节流函数
  * @param func 要执行的函数
- * @param delay 延时时间(ms) -- default=200
+ * @param delay 延时时间(ms) `default=200`
  * @returns 返回节流函数
  */
 function throttle<T extends FunctionVoid>(
