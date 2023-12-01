@@ -24,4 +24,4 @@ function getRandomRgbColor(type: "rgb" | "rgba" = "rgb"): string {
   return `rgba(${color}, ${opacity})`;
 }
 
-export default getRandomRgbColor();
+export default getRandomRgbColor;

@@ -14,4 +14,4 @@ function getRandomHexColor() {
   return color;
 }
 
-export default getRandomHexColor();
+export default getRandomHexColor;
