@@ -3,8 +3,6 @@ import getRandomNumber from "./getRandomNumber";
 /**
  * 生成 rgb|rgba 随机颜色
  * @param type 类型("rgb" | "rgba")
- * type: rgb    返回rgb(xx, xx, xx)
- * type: rgba   返回rgba(xx, xx, xx, xx)
  * @returns 返回生成 rgb|rgba 随机颜色
  */
 function getRandomRgbColor(type: "rgb" | "rgba" = "rgb"): string {
