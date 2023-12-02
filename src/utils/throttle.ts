@@ -1,4 +1,4 @@
-import type { FunctionVoidWithThis, FunctionVoid } from "../types";
+import type { FunctionVoidWithThis, FunctionVoid } from "./types";
 
 /**
  * ### 节流函数
