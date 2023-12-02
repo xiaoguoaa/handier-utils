@@ -9,7 +9,7 @@ const config = [
     input: "src/index.ts",
     output: {
       dir: "lib",
-      format: "cjs",
+      format: "es",
     },
     plugins: [
       typescript({
@@ -18,7 +18,10 @@ const config = [
       }),
       json(),
       resolve(),
-      babel({ babelHelpers: "bundled" }),
+      babel({
+        babelHelpers: "bundled",
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      }),
       terser(),
     ],
   },
