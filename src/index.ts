@@ -15,6 +15,9 @@ import {
   isFullScreen,
 } from "./utils/fullscreen";
 
+// file
+import readFileAsBase64 from "./utils/file/readFileAsBase64";
+
 export {
   chunk,
   throttle,
@@ -30,4 +33,5 @@ export {
   requestFullscreen,
   exitFullscreen,
   isFullScreen,
+  readFileAsBase64,
 };
