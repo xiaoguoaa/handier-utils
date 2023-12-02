@@ -19,6 +19,7 @@ import {
 import readFileAsBase64 from "./utils/file/readFileAsBase64";
 import base64toFile from "./utils/file/base64toFile";
 import base64toBlob from "./utils/file/base64toBlob";
+import blobToFile from "./utils/file/blobToFile";
 
 export {
   chunk,
@@ -38,4 +39,5 @@ export {
   readFileAsBase64,
   base64toFile,
   base64toBlob,
+  blobToFile,
 };
