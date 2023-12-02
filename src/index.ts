@@ -16,12 +16,12 @@ import {
 } from "./utils/fullscreen";
 
 // file
-import readFileAsBase64 from "./utils/file/readFileAsBase64";
+import fileToBase64 from "./utils/file/fileToBase64";
 import base64toFile from "./utils/file/base64toFile";
 import base64toBlob from "./utils/file/base64toBlob";
 import blobToFile from "./utils/file/blobToFile";
 import fileToBlob from "./utils/file/fileToBlob";
-import downloadBlob from "./utils/file/downloadBlob";
+import downloadFile from "./utils/file/downloadFile";
 
 export {
   chunk,
@@ -38,10 +38,10 @@ export {
   requestFullscreen,
   exitFullscreen,
   isFullScreen,
-  readFileAsBase64,
+  fileToBase64,
   base64toFile,
   base64toBlob,
   blobToFile,
   fileToBlob,
-  downloadBlob,
+  downloadFile,
 };

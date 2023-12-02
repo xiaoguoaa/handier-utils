@@ -3,7 +3,7 @@
  * @param file
  * @param fileName
  */
-function downloadBlob(file: Blob, fileName: string): void {
+function downloadFile(file: Blob, fileName: string): void {
   const url = window.URL.createObjectURL(file);
 
   const a = document.createElement("a");
@@ -18,4 +18,4 @@ function downloadBlob(file: Blob, fileName: string): void {
   window.URL.revokeObjectURL(url);
 }
 
-export default downloadBlob;
+export default downloadFile;
