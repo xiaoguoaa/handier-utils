@@ -1,5 +1,5 @@
 /**
- * file 转 blob
+ * ### file 转 blob
  * @param {File} file 传入的文件
  * @return {*}  {Promise<Blob>}
  */

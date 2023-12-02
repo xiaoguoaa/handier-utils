@@ -21,6 +21,7 @@ import base64toFile from "./utils/file/base64toFile";
 import base64toBlob from "./utils/file/base64toBlob";
 import blobToFile from "./utils/file/blobToFile";
 import fileToBlob from "./utils/file/fileToBlob";
+import downloadBlob from "./utils/file/downloadBlob";
 
 export {
   chunk,
@@ -42,4 +43,5 @@ export {
   base64toBlob,
   blobToFile,
   fileToBlob,
+  downloadBlob,
 };
