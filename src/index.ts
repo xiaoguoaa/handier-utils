@@ -17,6 +17,7 @@ import {
 
 // file
 import readFileAsBase64 from "./utils/file/readFileAsBase64";
+import base64toFile from "./utils/file/base64toFile";
 
 export {
   chunk,
@@ -34,4 +35,5 @@ export {
   exitFullscreen,
   isFullScreen,
   readFileAsBase64,
+  base64toFile,
 };
