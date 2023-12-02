@@ -7,6 +7,9 @@ import getRandomNumber from "./utils/getRandomNumber";
 import getRandomHexColor from "./utils/getRandomHexColor";
 import getRandomRgbColor from "./utils/getRandomRgbColor";
 import getRandomString from "./utils/getRandomString";
+import formatNumberWithCommas from "./utils/getRandomString";
+import firstLetterUpper from "./utils/firstLetterUpper";
+import { requestFullscreen, exitFullscreen } from "./utils/fullscreen";
 
 export {
   chunk,
@@ -18,4 +21,8 @@ export {
   getRandomHexColor,
   getRandomRgbColor,
   getRandomString,
+  formatNumberWithCommas,
+  firstLetterUpper,
+  requestFullscreen,
+  exitFullscreen,
 };
