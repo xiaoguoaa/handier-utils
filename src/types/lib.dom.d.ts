@@ -8,4 +8,9 @@ interface Document {
   mozCancelFullScreen: () => void;
   webkitExitFullscreen: () => void;
   msExitFullscreen: () => void;
+  mozFullScreenElement: HTMLElement;
+  mozFullScreen: HTMLElement;
+  webkitFullscreenElement: HTMLElement;
+  webkitIsFullScreen: HTMLElement;
+  msFullscreenElement: HTMLElement;
 }

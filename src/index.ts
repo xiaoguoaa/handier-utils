@@ -9,7 +9,11 @@ import getRandomRgbColor from "./utils/getRandomRgbColor";
 import getRandomString from "./utils/getRandomString";
 import formatNumberWithCommas from "./utils/formatNumberWithCommas";
 import firstLetterUpper from "./utils/firstLetterUpper";
-import { requestFullscreen, exitFullscreen } from "./utils/fullscreen";
+import {
+  requestFullscreen,
+  exitFullscreen,
+  isFullScreen,
+} from "./utils/fullscreen";
 
 export {
   chunk,
@@ -25,4 +29,5 @@ export {
   firstLetterUpper,
   requestFullscreen,
   exitFullscreen,
+  isFullScreen,
 };
