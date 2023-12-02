@@ -1,7 +1,7 @@
 /**
  * ### 文件转 base64
  * @param file 要转换的文件
- * @returns 返回 base64 编码
+ * @returns 返回 `Promise<base64 编码>`
  */
 function readFileAsBase64(file: File): Promise<string | null> {
   return new Promise((resolve, reject) => {
