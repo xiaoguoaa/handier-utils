@@ -23,6 +23,8 @@ import blobToFile from "./utils/file/blobToFile";
 import fileToBlob from "./utils/file/fileToBlob";
 import downloadFile from "./utils/file/downloadFile";
 
+import { add, sub } from "./utils/math";
+
 export {
   chunk,
   throttle,
@@ -44,4 +46,6 @@ export {
   blobToFile,
   fileToBlob,
   downloadFile,
+  add,
+  sub,
 };
