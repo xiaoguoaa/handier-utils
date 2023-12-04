@@ -3,9 +3,7 @@
 
 ## 安装
 ```
-npm install gwh-utils
-// or
-yarn add gwh-utils
+npm install --save gwh-utils
 ```
 
 ## Array
@@ -24,3 +22,5 @@ const chunkedArray = chunk(originalArray, 3);
 console.log(chunkedArray);
 // 输出: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8 ] ]
 ```
+
+### 待补充...

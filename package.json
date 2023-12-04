@@ -1,8 +1,8 @@
 {
-  "name": "gwh-utils",
-  "version": "2.0.6",
+  "name": "handier-utils",
+  "version": "1.0.0",
   "type": "module",
-  "description": "function utils",
+  "description": "帮助 javascript/typescript 开发的函数工具集",
   "keywords": [
     "utils"
   ],
@@ -11,7 +11,7 @@
     "test": "vitest",
     "build": "rimraf lib && rollup -c rollup.config.js"
   },
-  "author": "guowh",
+  "author": "xiaoguoaa",
   "license": "ISC",
   "files": [
     "lib",
