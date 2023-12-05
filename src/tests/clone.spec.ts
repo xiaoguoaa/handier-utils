@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import clone from "../clone";
+import clone from "../utils/clone";
 
 describe("浅拷贝", () => {
   test("源对象是 null", () => {

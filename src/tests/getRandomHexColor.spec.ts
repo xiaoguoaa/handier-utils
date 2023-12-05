@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import getRandomHexColor from "../getRandomHexColor";
+import getRandomHexColor from "../utils/getRandomHexColor";
 
 describe("getRandomHexColor function", () => {
   test("符合 hexColor 格式", () => {

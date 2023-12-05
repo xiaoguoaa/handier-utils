@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import cloneDeep from "../cloneDeep";
+import cloneDeep from "../utils/cloneDeep";
 
 describe("cloneDeep function", () => {
   test("源对象是 null", () => {

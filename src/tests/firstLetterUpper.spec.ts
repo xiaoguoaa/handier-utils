@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import firstLetterUpper from "../firstLetterUpper";
+import firstLetterUpper from "../utils/firstLetterUpper";
 
 describe("firstLeterUpper function", () => {
   test("正常字符串", () => {

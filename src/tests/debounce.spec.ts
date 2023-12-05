@@ -1,5 +1,5 @@
 import { describe, test, expect, vi } from "vitest";
-import debounce from "../debounce";
+import debounce from "../utils/debounce";
 
 vi.useFakeTimers();
 describe("debounce function", () => {

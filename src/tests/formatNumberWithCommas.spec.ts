@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import formatNumberWithCommas from "../formatNumberWithCommas";
+import formatNumberWithCommas from "../utils/formatNumberWithCommas";
 
 describe("formatNumberWithCommas function", () => {
   test("正整数", () => {

@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import getRandomNumber from "../getRandomNumber";
+import getRandomNumber from "../utils/getRandomNumber";
 
 describe("getRandomNumber", () => {
   test("随机数在两数之间（正整数）", () => {

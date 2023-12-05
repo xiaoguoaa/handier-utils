@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import chunk from "../chunk";
+import chunk from "../utils/chunk";
 
 describe("数组拆分", () => {
   test("正常情况", () => {
