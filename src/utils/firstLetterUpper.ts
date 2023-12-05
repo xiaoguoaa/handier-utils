@@ -4,6 +4,9 @@
  * @returns 转换后的字符串 `Hello`
  */
 function firstLetterUpper(str: string) {
+  if (!str) {
+    return "";
+  }
   return str.at(0)?.toUpperCase() + str.slice(1);
 }
 
