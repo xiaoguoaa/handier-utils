@@ -141,5 +141,3 @@ function add(...numbers: number[]): number;
 ```ts
 function sub(...numbers: number[]): number;
 ```
-
-## 待补充...
