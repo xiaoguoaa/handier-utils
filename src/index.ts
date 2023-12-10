@@ -22,6 +22,7 @@ import base64toBlob from "./utils/file/base64toBlob";
 import blobToFile from "./utils/file/blobToFile";
 import fileToBlob from "./utils/file/fileToBlob";
 import downloadFile from "./utils/file/downloadFile";
+import getImageSize from "./utils/file/getImageSize";
 
 import { add, sub } from "./utils/math";
 
@@ -46,6 +47,7 @@ export {
   blobToFile,
   fileToBlob,
   downloadFile,
+  getImageSize,
   add,
   sub,
 };
