@@ -130,6 +130,15 @@ function blobToFile(blob: Blob, fileName: string): File;
 function downloadFile(file: Blob, fileName: string): void;
 ```
 
+## getImageSize
+> 获取图片宽高
+```ts
+function getImageSize(imageSource: string | File): Promise<{
+    width: number;
+    height: number;
+}>;
+```
+
 ## add
 > 数字相加，解决精度丢失问题
 ```ts
