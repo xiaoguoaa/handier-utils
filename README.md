@@ -150,3 +150,9 @@ function add(...numbers: number[]): number;
 ```ts
 function sub(...numbers: number[]): number;
 ```
+
+## wait
+> 等待指定时间
+```ts
+function wait(ms: number): Promise<void>;
+```

@@ -26,6 +26,8 @@ import getImageSize from "./utils/file/getImageSize";
 
 import { add, sub } from "./utils/math";
 
+import wait from "./utils/wait";
+
 export {
   chunk,
   throttle,
@@ -50,4 +52,5 @@ export {
   getImageSize,
   add,
   sub,
+  wait,
 };
