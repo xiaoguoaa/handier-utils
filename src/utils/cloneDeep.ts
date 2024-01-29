@@ -1,28 +1,23 @@
-/**
- * ### 深拷贝
- * @param source 要拷贝的源对象
- * @returns 返回拷贝后的目标对象
- */
 function cloneDeep<T>(source: T): T {
-  if (source === null || typeof source !== "object") {
+  if (typeof source !== "object" || source === null) {
     return source;
   }
 
+  let clone: T | undefined;
+
   if (Array.isArray(source)) {
-    // 处理数组的情况
-    return source.map((item) => cloneDeep(item)) as T;
-  }
+    clone = source.map((item: any) => cloneDeep(item)) as T;
+  } else {
+    clone = {} as T;
 
-  // 处理对象的情况
-  const clonedObj: Record<string, any> = {};
-
-  for (const key in source) {
-    if (Object.prototype.hasOwnProperty.call(source, key)) {
-      clonedObj[key] = cloneDeep(source[key]);
+    for (let key in source) {
+      if (source.hasOwnProperty(key)) {
+        clone[key] = cloneDeep(source[key]);
+      }
     }
   }
 
-  return clonedObj as T;
+  return clone;
 }
 
 export default cloneDeep;
