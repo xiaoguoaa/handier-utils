@@ -1,6 +1,6 @@
 {
   "name": "handier-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "帮助 javascript/typescript 开发的函数工具集",
   "keywords": [
