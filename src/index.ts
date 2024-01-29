@@ -27,6 +27,7 @@ import getImageSize from "./utils/file/getImageSize";
 import { add, sub } from "./utils/math";
 
 import wait from "./utils/wait";
+import copyTextToClipboard from "./utils/copyTextToClipboard";
 
 export {
   chunk,
@@ -53,4 +54,5 @@ export {
   add,
   sub,
   wait,
+  copyTextToClipboard,
 };
